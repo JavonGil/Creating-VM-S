@@ -36,10 +36,10 @@ I will be walking you through creating a Windows and Linux virtual machine (VM) 
 <br />
 
 <p>
-<img width="750" alt="CVM RG2" src="https://github.com/user-attachments/assets/225c4871-81f4-4c60-8cd1-f60c93de7d8c" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 05 40 AM" src="https://github.com/user-attachments/assets/92adb06b-f05f-4608-8a13-a0a84f6f6864" />
 </p>
 <p>
-- Locate the Search Bar at the top of your screen. We will use this to find the Resourse Groups. Notice the options that populate as you type "resource" into the search bar. Select Resource Groups.
+- Locate the Search Bar at the top of your screen and type "resource". Notice the options that populate as you type "resource" into the search bar. Select Resource Groups.
 </p>
 
 <br />

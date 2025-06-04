@@ -45,57 +45,57 @@ I will be walking you through creating a Windows and Linux virtual machine (VM) 
 <br />
 
 <p>
-<img width="750" alt="CVM RG3" src="https://github.com/user-attachments/assets/72a12b56-b80c-4cd8-85ea-20661e028bd0" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 06 21 AM" src="https://github.com/user-attachments/assets/fa2ccfc9-d5c7-4962-a9ee-58f31719e6ef" />
 </p>
-<p> - Oops! The resource groups seem to be missing... Have no fear, IT is here! 😎 Click the + Create button and let's get this party started!</p>
+<p> - There should be no resource groups in sight. Click the + Create button and let the games begin!</p>
 <br />
 <br />
 
 <p>
-<img width="750" alt="CVM RG4" src="https://github.com/user-attachments/assets/f1b182f0-e9db-475e-9036-6241d4c9366e" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 07 54 AM" src="https://github.com/user-attachments/assets/5f3cfbfb-8630-45eb-9b19-77641dcdcf9d" />
 </p>
 <p>
  
  1. The Subscription box should reflect whatever you chose when setting up your Azure account. If you do not see that, click the drop down arrow to find it. 
  
- 2. Now, name your Resource Group (RG). This RG is where our VMs will be stored in the Cloud.
+ 2. Name your Resource Group (Project-IT). This group is where our VMs will be stored in the Cloud.
  
- 3. Next, choose the Region. *Pro Tip: Select (US) East US 2 for ALL Region options. Making sure the Region matches for eveything we create will save you from future headaches.* Now click next at the bottom of the screen.
+ 3. Next, choose the Region. *Tip: Select (US) East US 2 for ALL Region options. Making sure the Region matches for eveything we create.* Now click next at the bottom of the screen.
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM RG5" src="https://github.com/user-attachments/assets/4d913c40-61ef-4e03-8488-d6ab4bb06540" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 08 29 AM" src="https://github.com/user-attachments/assets/d5fab9e9-1367-4fba-ad91-7e908039d65c" />
 </p>
 <p>
-- Review the Resource Group information and click Create. Make note of the name and region you used for future reference. 
+- Review the information and click Create. Make a mental note or write down the name and region you used for future reference. 
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM RG6" src="https://github.com/user-attachments/assets/541f3928-a25c-473c-9b4e-e0ca9805304b" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 09 29 AM" src="https://github.com/user-attachments/assets/eeb23a45-ef1c-44f8-b07d-c1ddc18c35fc" />
 </p>
 <p>
-- After clicking Create you will be directed back to the RG section. You have successfully created your Resource Group in the Cloud. Now let's get to the good part and the real reason we're all here. To create some VMs! </p>
+- After clicking Create you will be directed back to the RG (Resource Groups) section. You have successfully created your Resource Group in the Cloud. Now let's create some VMs! </p>
 <br />
 
-<h3> Step 2: Create a Windows VM in Azure </h3><p>
-<img width="750" alt="CVM 1" src="https://github.com/user-attachments/assets/7666a0a4-96db-4742-980e-c2e4b255cb7d" />
+<h3> Step 2: Creating a Windows VM in Azure </h3><p>
+<img width="1512" alt="Screenshot 2025-06-04 at 11 10 41 AM" src="https://github.com/user-attachments/assets/e6492563-9a74-47a4-ad45-b3b0c3d91712" />
 </p>
 <p>
-- From this screen, locate the search bar again and enter "virtual". Select "Virtual machines" from the options populated. This will direct you to the Virtual Machines section.
-</p>
-<br />
-
-<p>
-<img width="750" alt="CVM 2" src="https://github.com/user-attachments/assets/608f7437-62b3-44ff-8bf0-0f0cb2da6c79" />
-</p>
-- Simply click the + Create button to get started. (Simular to when we created the Resource Group)
+- From this screen, locate the search bar again and enter "vm". Select "Virtual machines" from the options. This will direct you to the Virtual Machines section.
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM 3" src="https://github.com/user-attachments/assets/754c7d0d-b1d4-44e4-8514-9cb69fdba6c6" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 11 13 AM" src="https://github.com/user-attachments/assets/764b9a9f-17ae-49c5-a56e-e2a0028f47b5" />
+</p>
+- Simply click the + Create button to get started.
+</p>
+<br />
+
+<p>
+<img width="1512" alt="Screenshot 2025-06-04 at 11 11 47 AM" src="https://github.com/user-attachments/assets/eebba9f3-eeca-44db-8360-c65d025cee9c" />
 </p>
 <p>
  - Select the first option, "Azure virtual machine" from the drop down and click + Create button.
@@ -103,7 +103,7 @@ I will be walking you through creating a Windows and Linux virtual machine (VM) 
 <br />
 
 <p>
-<img width="750" alt="CVM 5" src="https://github.com/user-attachments/assets/eec90446-dfc6-4585-a148-f42cb3ee7b3d" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 13 24 AM" src="https://github.com/user-attachments/assets/e8ce4bd3-48ac-4826-9af1-2cb5b2a9bd6d" />
 </p>
 <p>
  - Your subscription should already be selected.
@@ -123,79 +123,60 @@ I will be walking you through creating a Windows and Linux virtual machine (VM) 
 </p>
 <p>
  - Scroll down to select the Size. We want to use the "Standard_D2s_v5 - 2 vcpus, 8 GiB memory".</p>
-<p>- If you do not see this listed, click "See all sizes" to get more options. Sometimes the Region selected can cause this specific size to not populate. That is okay. Just make sure the size you pick has at least 2 vcpus and 8 GiB memory. This will be plenty of power to handle what we are doing. 😉
+<p>- If you do not see this listed, click "See all sizes" to get more options. Sometimes the Region selected can cause this specific size to not appear. Make sure the size you pick has at least 2 vcpus and 8 GiB memory.
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM 7" src="https://github.com/user-attachments/assets/f881cb39-aef3-4eeb-affb-4466f22ad25a" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 14 38 AM" src="https://github.com/user-attachments/assets/82adabbf-1c47-455f-8101-c2523391726d" />
 </p>
 <p>
- - Next, you will create a username and password for the VM. We will need this to log on later with a Remote Desktop Connection (RDP). *Highly recommend saving this infomation to refer back to later.*</p>
-<p>- Now, locate the Licensing area towards the bottom of the screen. You will need to check the box to confirm. This is required because we are creating a Windows VM. Deployment will not work if left unchecked. Click "Next: Disks" to move on.
-</p>
-<br />
-
-<p>
-<img width="750" alt="CVM 8" src="https://github.com/user-attachments/assets/462d11fb-f8f0-4219-9c26-827170912aea" />
-</p>
-<p>
- - We will leave the Disks settings at Default for what we are doing, but you can see all the differnet options Azure provides. Click "Next: Networking" to move on to Networking. This is where we will set the Vitrual Network for the VM.
+ - Next, you will create a username and password for the VM. We will need this to log on later with a Remote Desktop Connection (RDP). *Highly recommend writing down this information for later.*</p>
+<p>- Now, locate the Licensing area towards the bottom of the screen. You will need to check the box to confirm. This is required because we are creating a Windows VM. Deployment will not work if left unchecked. Click "Next: Disks" then "Next: Networking" to move on.
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM 9" src="https://github.com/user-attachments/assets/53c79197-e802-42a6-a97a-0108ec3357bb" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 18 09 AM" src="https://github.com/user-attachments/assets/8e8b08e4-dd32-4fdf-932c-173fbccd57e4" />
 </p>
 <p>
- - Azure may auto populate a Network name for you. Go ahead and create a new one with a name of your choosing. Just note what you named the Network to refer back to later. We will need it for the Linux VM. You can leave the rest at Default setting. Azure will automatically assign the Subnet and Public IP for you. Leave the RDP Port as well. We will need access the VM via Remote Desktop Connection later. Click "Review + create" button.
+ - Azure may auto populate a Network name for you. Go ahead and create a new one. Just note what you named the Networt, we will need it for the Linux VM. You can leave the rest alone and use the Default settings. Azure will automatically assign the Subnet and Public IP for you. Leave the RDP Port as well. We will need access the VM via Remote Desktop Connection later. Click "Review + create" button.
 </p>
 <br />
 
-<p>
-<img width="750" alt="CVM 10" src="https://github.com/user-attachments/assets/55bae108-9d45-494c-968f-0f6c39a8953c" />
-</p>
-<p>
  - Review all the informatiom for the Windows VM. Our Subsciption, RG, and Region are correct. We named the VM "windows-vm". The Image and Size are correct and we have RDP active. Simply click "Create".
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM 11" src="https://github.com/user-attachments/assets/faaeb121-7fcf-4e08-94a0-587eed4fd249" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 23 40 AM" src="https://github.com/user-attachments/assets/ba796dc7-a01c-4cf2-a260-2eef0de08fcb" />
 </p>
 <p>
- - Once you click "Create", the Deployment of the Windows VM will begin. Grab a snack or something to drink beacuse this can take a few minutes. When you come back from snacking, you will see "Your deployment is complete". Congrats! We just created our first Virtual Machine in the Cloud but let's not get too excited. There is still work to be done. Click "Create another VM" to get started on the Linux VM.
+ - Once you click "Create", the Deployment of the Windows VM will begin. This can take a few minutes. When it's completed you will see "Your deployment is complete". Congrats! We just created our first Virtual Machine in the Cloud. Click "Create another VM" to get started on the Linux VM.
 </p>
 <br />
 
 <h3> Step 3: Create a Linux VM in Azure </h3>
 
 <p>
-<img width="750" alt="CVM 12" src="https://github.com/user-attachments/assets/5c86e766-a2cb-4000-80f9-11b397d97707" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 29 28 AM" src="https://github.com/user-attachments/assets/fee7af76-e7b5-43f9-9219-f4783743d75d" />
 </p>
 <p>
-- Hey, this screen looks familiar... Select the same RG that we created earlier. Name the VM "linux-vm" and choose the same Region as before. Again, this will save you headaches in the future.
-</p>
-<br />
-
-<p>
-<img width="750" alt="CVM 13" src="https://github.com/user-attachments/assets/508c5b6f-1b67-405c-802b-206b422052cd" />
-</p>
-<p>
-- Since this will be the Linux VM, select "Ubuntu Server 22.02" for the Image.
+Select the same RG that we created earlier. Name the VM "linux-vm" and choose the same Region as before. Since this will be the Linux VM, select "Ubuntu Server 22.02" for the Image.
 </p>
 <br />
 
+
 <p>
-<img width="750" alt="CVM 14" src="https://github.com/user-attachments/assets/ddad7697-f8cf-4003-a93b-f1b040f82c65" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 30 35 AM" src="https://github.com/user-attachments/assets/1c0a29f2-6714-4319-b822-c823db3c94e1" />
 </p>
 <p>- Choose the same Size option as before. "Standard_D2s_v5 - 2 vcpus, 8 GiB memory". </p>
-<p>- Next, you will need to select "Password" for Authentication type. Azure defaults to SSH public key. Then, create a Username and Password. You can use information as the Windows VM to keep it simple.Once you are done, scroll done and click "Disks". Leave these options as default and skip to "Networking". 
+<p>- Next, you will need to select "Password" for Authentication type. Azure defaults to SSH public key. Then, create a Username and Password. You can use information as the Windows VM to keep it simple. Once you are done, scroll done and click "Disks". Leave these options as default and skip to "Networking". 
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM 15" src="https://github.com/user-attachments/assets/4c159176-e6da-444f-967a-dd0f6a6a5d40" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 32 38 AM" src="https://github.com/user-attachments/assets/33e0e3c7-639e-49bf-aaf7-c89e4081d132" />
 </p>
 <p>
 - Make sure to select the same Virtual Network that we created earlier. We can leave everything else as default. Scroll down and click "Review + create".  
@@ -203,34 +184,45 @@ I will be walking you through creating a Windows and Linux virtual machine (VM) 
 <br />
 
 <p>
-<img width="750" alt="CVM 16" src="https://github.com/user-attachments/assets/e81a268d-75e1-4031-b042-2c13e1e00586" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 33 52 AM" src="https://github.com/user-attachments/assets/2e85d857-ec96-4e99-866c-d9df3e36bae7" />
 </p>
 <p>
-- On the next screen you will see the deployment of the Linux VM in progress. Time for second snack. This may take a few minutes.  
-</p>
-<br />
-
-<p>
-<img width="750" alt="CVM 17" src="https://github.com/user-attachments/assets/c84c0ca9-20ca-408d-9662-5ccadc25c947" />
-</p>
-<p>
-- The Linux VM has been successfully created. Let's Go! Locate the search bar at the top of the screen and type in "virtual". Select "Virtual machines" and you will be direct to your newly created VMs!  
+- On the next screen you will see the deployment of the Linux VM in progress. This may take a few minutes.  
 </p>
 <br />
 
 <p>
-<img width="750" alt="CVM 18" src="https://github.com/user-attachments/assets/a013313b-16e7-4d7e-80d1-35cabfce1582" />
+<img width="1512" alt="Screenshot 2025-06-04 at 11 35 27 AM" src="https://github.com/user-attachments/assets/35e7f18d-4cfa-4aa5-bf9e-c298b763d7e3" />
 </p>
 <p>
-- You can view the Windows and Linux VMs we created in the Cloud. You will notice the RG and Locations match, what OS they are running, Public IP addresses, and so much more... </p>
+- The Linux VM has been successfully created.   
+</p>
+<br />
+
+<p>
+<img width="1512" alt="Screenshot 2025-06-04 at 11 35 53 AM" src="https://github.com/user-attachments/assets/0643dbc7-9387-4a33-a6c1-e8f5805a9412" />
+</p>
+<p>
+- Locate the search bar at the top of the screen and type in "virtual". Select "Virtual machines" and you will be direct to your newly created VMs!
+</p>
+<br />
+
+<p>
+<img width="1512" alt="Screenshot 2025-06-04 at 11 36 00 AM" src="https://github.com/user-attachments/assets/7961c4f4-78a1-4891-8561-2c396ad4d528" />
+</p>
+<p>
+- You can view the Windows and Linux VMs we created in the Cloud. You will notice the RG and Locations match, what OS they are running, Public IP addresses, and more! </p>
 <p> *Pro Tip: Notice the Start, Restart, and Stop buttons above the OS and Size area. You can use these to "turn off", "turn on" , or "restart" the VMs like you would your physical PC or Laptop. To save on your subsricption, you can "Stop" the VMs from running while you are not using them. Just make sure to "Start" them when you are ready to use them again. If you want extra practice, you can simply delete the RG and recreate everything as needed.*   
 </p>
 <br />
 
-<h2>✅ Conclusion</h2>
+<h2>🎉 Project Wrap Up/h2>
 
 <p>
-This concludes our project. We sucessfully created a Resource Group, a Windows VM running Windows 10 Pro, and a Linux VM running Unbutu in the Cloud. We got to learn and witness the many possibilties of what Cloud Computing and Virtualization offers. Now, we essentilly have three machines in total to use how we want for our IT needs. </p>
-<p>I completed this from a Macbook and have gained access to 2 other machines running a differnet OS without taking up any desk space or shelling out thousands of dollars. You can clearly see the many benefits that companies gain from using Cloud Services and Cloud Service Providers (CSP). Don't forget to Stop (turn off) the VMs in Azure. Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
-</p>
-<br />
+And that’s a wrap. In this project, we successfully created a Resource Group, a Windows VM running Windows 10 Pro, and a Linux VM running Ubuntu, all hosted in the cloud.
+
+Along the way, we got a hands-on look at the power of cloud computing and virtualization — how simple it is to spin up multiple machines without needing physical hardware. With just a MacBook, I was able to set up and access two additional machines running completely different operating systems. No clutter, no pricey setups, just pure cloud efficiency.
+
+This is a perfect example of why businesses are leaning heavy into Cloud Service Providers (CSPs) — the flexibility, scalability, and cost effectiveness are game changers.
+
+Before we go, don’t forget to Stop your VMs in Azure when you're done to avoid unnecessary charges. Thanks for following along and being part of this journey. See you in the next project — same energy, new level 😎 </p>

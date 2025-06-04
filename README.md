@@ -216,13 +216,10 @@ Select the same RG that we created earlier. Name the VM "linux-vm" and choose th
 </p>
 <br />
 
-<h2>🎉 Project Wrap Up/h2>
+<h2>🎉 Project Wrap Up</h2>
 
 <p>
-And that’s a wrap. In this project, we successfully created a Resource Group, a Windows VM running Windows 10 Pro, and a Linux VM running Ubuntu, all hosted in the cloud.
-
-Along the way, we got a hands-on look at the power of cloud computing and virtualization — how simple it is to spin up multiple machines without needing physical hardware. With just a MacBook, I was able to set up and access two additional machines running completely different operating systems. No clutter, no pricey setups, just pure cloud efficiency.
-
-This is a perfect example of why businesses are leaning heavy into Cloud Service Providers (CSPs) — the flexibility, scalability, and cost effectiveness are game changers.
-
-Before we go, don’t forget to Stop your VMs in Azure when you're done to avoid unnecessary charges. Thanks for following along and being part of this journey. See you in the next project — same energy, new level 😎 </p>
+And that’s a wrap. In this project, we successfully created a Resource Group, a Windows VM running Windows 10 Pro, and a Linux VM running Ubuntu, all hosted in the cloud. Along the way, we got a hands-on look at the power of cloud computing and virtualization — how simple it is to spin up multiple machines without needing physical hardware. With just a MacBook, I was able to set up and access two additional machines running completely different operating systems. No clutter, no pricey setups, just pure cloud efficiency. </p>
+<p>This is a perfect example of why businesses are leaning heavy into Cloud Service Providers (CSPs) — the flexibility, scalability, and cost effectiveness are game changers. Before we go, don’t forget to Stop your VMs in Azure when you're done to avoid unnecessary charges. Thanks for following along and being part of this journey. See you in the next project — same energy, new level 😎      
+</p>
+<br />

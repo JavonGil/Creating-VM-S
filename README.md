@@ -30,10 +30,6 @@ I will be walking you through creating a Windows and Linux virtual machine (VM) 
 
 <h3> Step 1: Create a Resource Group in Azure </h3>
 
-<p>
-<img width="750" alt="CVM RG1" src="https://github.com/user-attachments/assets/1c6e64ad-18da-497c-8ccc-3fe556fd6325" />
-</p>
-<p>
 - After creating your account in Microsoft Azure navigate to the home page.<img width="1512" alt="Screenshot 2025-06-04 at 11 02 03 AM" src="https://github.com/user-attachments/assets/b92171a5-00dd-46a2-a448-9d9d7849493a" />
 
 </p>

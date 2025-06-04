@@ -3,8 +3,8 @@
  
 </p>
 
-<h1>Creating a Windows and Linux Virtual Machine in the Cloud (Microsoft Azure)</h1>
-In this walkthrough, we will create a Windows and Linux virtual machine (VM) in Azure. This skill set will be vital and is a key component to all of the IT projects listed. <br />
+<h1>How To Create a Windows and Linux Virtual Machine in Microsoft Azure</h1>
+I will be walking you through creating a Windows and Linux virtual machine (VM) in Azure. This skill set will be vital and is a key component to all of the IT projects listed. <br />
 
 <h2>⚠️ Prerequisite</h2>
 
@@ -14,19 +14,19 @@ In this walkthrough, we will create a Windows and Linux virtual machine (VM) in 
 
 - Microsoft Azure (Virtual Machines/Compute)
 
-<h2>👨‍💻 Operating Systems Used </h2>
+<h2>🖥️ Operating Systems Used </h2>
 
 - macOS Sequoia
 - Windows 10 Pro (21H2)
 - Ubuntu Server 22.04
 
-<h2>🪜 High-Level Steps</h2>
+<h2>✅ High-Level Steps</h2>
 
-- Step 1: Create a Resource Group in Azure
-- Step 2: Create the Windows VM in Azure
-- Step 3: Create the Linux VM in Azure
+- Step 1: Creating a Resource Group in Azure
+- Step 2: Creating the Windows VM in Azure
+- Step 3: Creating the Linux VM in Azure
 
-<h2>Walkthrough Demonstration</h2>
+<h2>Demonstration Below</h2>
 
 <h3> Step 1: Create a Resource Group in Azure </h3>
 
@@ -34,7 +34,8 @@ In this walkthrough, we will create a Windows and Linux virtual machine (VM) in 
 <img width="750" alt="CVM RG1" src="https://github.com/user-attachments/assets/1c6e64ad-18da-497c-8ccc-3fe556fd6325" />
 </p>
 <p>
-- After creating an account with Microsoft Azure and getting logged in, you will end up at the Quickstart Center screen. Welcome to Azure!
+- After creating your account in Microsoft Azure navigate to the home page.<img width="1512" alt="Screenshot 2025-06-04 at 11 02 03 AM" src="https://github.com/user-attachments/assets/b92171a5-00dd-46a2-a448-9d9d7849493a" />
+
 </p>
 <br />
 
